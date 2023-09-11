@@ -144,6 +144,7 @@ header {
 .logos {
   justify-content: space-between;
   flex-wrap: wrap;
+  padding-block: 20px;
 }
 .logo {
   height: 46px;
@@ -174,4 +175,20 @@ header {
   gap: 20px;
   max-width: 30%;
   text-align: center;
+}
+
+/* big feature section */
+
+.big-features-section {
+  padding: 30px var(--padding-inline-section) 0;
+}
+.big-feature-container {
+  gap: 30px;
+}
+.feature-img img {
+  width: 100%;
+}
+.feature-description {
+  flex-direction: column;
+  align-items: flex-start;
 }
